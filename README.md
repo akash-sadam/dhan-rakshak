@@ -123,9 +123,9 @@ dhan-rakshak/
 │   │   ├── index.html              # Guardian HUD dashboard (WebAudio visualizer)
 │   │   └── samples/                # Live 48kHz audio files
 │   └── src/                        # Modular frontend components
-├── docs/
-│   ├── ARCHITECTURE.md             # Detailed engineering design
-│   └── DEMO_SCRIPT.md              # 60-second video walkthrough script
+├── scripts/
+│   ├── benchmark_latency.py        # Glass-to-ear latency testing
+│   └── simulate_call.py            # CLI telephony stream simulator
 └── run.py                          # Single-command application launcher
 ```
 

@@ -3,8 +3,8 @@
 *.env
 !.env.example
 
-# Local Utility Scripts
-scripts/
+# Internal Documentation & Notes
+docs/
 
 # Python
 __pycache__/
