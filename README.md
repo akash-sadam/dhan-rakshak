@@ -93,13 +93,10 @@ python run.py
 ```
 Open **`http://localhost:8000`** in your browser to interact with the **Guardian HUD Cockpit**.
 
-### 4. Run Tests & Latency Benchmark
+### 4. Run Tests
 ```bash
 # Run unit & integration tests (8 passed)
 python -m unittest discover -s backend/tests -p "test_*.py" -v
-
-# Run live latency benchmark
-python scripts/benchmark_latency.py
 ```
 
 ---
@@ -126,9 +123,6 @@ dhan-rakshak/
 │   │   ├── index.html              # Guardian HUD dashboard (WebAudio visualizer)
 │   │   └── samples/                # Live 48kHz audio files
 │   └── src/                        # Modular frontend components
-├── scripts/
-│   ├── benchmark_latency.py        # Glass-to-ear latency testing
-│   └── simulate_call.py            # CLI telephony stream simulator
 ├── docs/
 │   ├── ARCHITECTURE.md             # Detailed engineering design
 │   └── DEMO_SCRIPT.md              # 60-second video walkthrough script
