@@ -1,5 +1,6 @@
 # Dhan-Rakshak (ధన రక్షక్ / धन रक्षक)
 > Real-Time Voice Scam Interceptor & Senior Co-Pilot powered by Gnani.ai
+demo video : https://drive.google.com/file/d/1uC2zHbCpmkBzNGk0YDHxtD9LaaLTj6CX/view?usp=drive_link
 
 [![Live Demo](https://img.shields.io/badge/Demo-Localhost%3A8000-brightgreen.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
